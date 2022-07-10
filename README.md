@@ -2,11 +2,10 @@
 
 ## Overview
 
-Simple web server with 3 routes:
+Simple auth server to authenticate user and create a cookie for further authentications:
 
-- /: Returns index.html
-- /form.html: Returns form.html
-- /hello: Returns a "Hello"
+- /login: Returns login.html
+- /register: POST request to register user (no html form provided)
 
 ### Installation
 
